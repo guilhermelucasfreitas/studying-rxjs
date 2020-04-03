@@ -61,6 +61,7 @@ export class BasicCreationComponent implements OnInit {
     this.inscricao = new Subscription();
   }
 
+  //Atrelar um evento ao algum componente ou até mesmo o o html inteiro
   fromEventClick(){
     const subscription = fromEvent(document, 'click')
       .subscribe((e) => console.log(e));

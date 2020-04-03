@@ -7,11 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicCreationComponent } from './basic-creation/basic-creation.component';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
+import { OperatorsComponent } from './operators/operators.component';
+import { HotObservablesComponent } from './hot-observables/hot-observables.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicCreationComponent
+    BasicCreationComponent,
+    OperatorsComponent,
+    HotObservablesComponent,
   ],
   imports: [
     BrowserModule,
